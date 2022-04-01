@@ -1,0 +1,115 @@
+
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    background-color: #202124;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    height: 60px;
+}
+.top a{
+    color: white;
+    margin: 5px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+    margin: auto;
+    display: block;
+}
+
+main{
+    position: relative;
+    margin-top: 200px;
+}
+
+.buscadorbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.buscador{
+    width: 584px;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    box-shadow: none;
+    color: white;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: white;    
+}
+
+footer{
+    bottom: 0px;
+    background-color: #171717;
+    position: absolute;
+    width: 100vw;
+}
+
+.footer-link{
+    padding: 5px 30px;
+    overflow: hidden;
+}
+
+.footer-link a{
+    color: #9aa0a6;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.mexico{
+    padding: 15px 30px;
+    border-bottom: 0.1px solid #212327;
+    font-size: 14px;
+    color: #9aa0a6;
+}
+
+.izq{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.der{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
